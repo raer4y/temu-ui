@@ -1,0 +1,40 @@
+[
+  {
+    "item_id": "ITM-001",
+    "report_type": "LOST",
+    "title": "Tumbler Corkcicle Hitam",
+    "category": "Tumbler / Botol Minum",
+    "location": "Perpustakaan Pusat (Perpusat)",
+    "location_detail": "Lantai 2 dekat area sofa baca",
+    "description": "Tumbler hitam doff ukuran 16oz dengan stiker Fasilkom di bagian bawah.",
+    "reporter_username": "budi_fasilkom",
+    "reporter_name": "Budi Santoso",
+    "reporter_faculty": "Fasilkom",
+    "created_at": "2026-11-26 10:00:00",
+    "status": "OPEN",
+    "ktm_npm": null,
+    "lost_time_estimate": "2026-11-26 09:30",
+    "owner_contact": "081234567890"
+  },
+  {
+    "item_id": "ITM-002",
+    "report_type": "FOUND",
+    "title": "KTM UI a.n. Budi Santoso",
+    "category": "KTM UI",
+    "location": "Halte Stasiun UI",
+    "location_detail": "Ditemukan di bangku tunggu halte arah Fasilkom",
+    "description": "KTM UI angkatan 2024 kondisi baik.",
+    "reporter_username": "siti_feb",
+    "reporter_name": "Siti Rahma",
+    "reporter_faculty": "FEB",
+    "created_at": "2026-11-26 11:15:00",
+    "status": "CLAIM_PENDING",
+    "ktm_npm": "2406123456",
+    "original_img_path": "",
+    "blurred_img_path": "",
+    "secret_question": "Sebutkan 3 digit terakhir NPM yang tertera di kartu!",
+    "handoff_method": "DIRECT",
+    "finder_contact": "@sitirahma_ui",
+    "dropoff_location_detail": ""
+  }
+]
