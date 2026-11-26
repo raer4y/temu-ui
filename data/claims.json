@@ -1,0 +1,13 @@
+[
+  {
+    "claim_id": "CLM-001",
+    "item_id": "ITM-002",
+    "claimer_username": "budi_fasilkom",
+    "claimer_name": "Budi Santoso",
+    "claimer_faculty": "Fasilkom",
+    "claimer_contact": "081234567890",
+    "secret_answer": "456",
+    "created_at": "2026-11-26 12:00:00",
+    "status": "PENDING"
+  }
+]
