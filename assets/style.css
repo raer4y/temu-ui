@@ -1,0 +1,31 @@
+/* ini untuk menu + footer bawaan streamlit */
+#MainMenu, footer, header[data-testid="stHeader"] {
+    visibility: hidden;
+    height: 0;
+}
+
+/* page buat dekstop */
+.block-container {
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+    max-width: 1120px;
+}
+
+/* tombol */
+button[kind="primary"], button[kind="secondary"] {
+    border-radius: 10px !important;
+    min-height: 42px;
+}
+
+/* optimization untuk HP */
+@media (max-width: 768px) {
+    .block-container {
+        padding-top: 0.8rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    button[kind="primary"], button[kind="secondary"] {
+        min-height: 46px;
+        width: 100%;
+    }
+}
