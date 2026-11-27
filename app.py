@@ -1,5 +1,6 @@
 import streamlit as st
 from pathlib import Path
+from ui.feed_page import render_feed_page
 
 st.set_page_config(
     page_title="TEMU.UI | Lost & Found",
@@ -36,8 +37,7 @@ def main():
     menu = render_navbar()
     
     if menu == "Radar Barang":
-        st.header("Radar Barang")
-        st.write("Belum ada data.")
+        render_feed_page(st.session_state.get("current_user"))
     elif menu == "Lapor":
         st.header("Lapor Barang")
         st.write("Form belum dibuat.")
