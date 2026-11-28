@@ -103,6 +103,10 @@ def render_feed_page(current_user):
                                             save_items(items)
                                         st.success("Klaim terkirim. Cek progres di menu Klaim Barang.")
                 elif item.report_type == "LOST" and item.status != "RETURNED":
-                    with st.popover("Lihat Kontak Pemilik", use_container_width=True):
-                        st.write(f"Kontak: **{item.owner_contact}**")
-                        st.caption(f"Perkiraan hilang: {item.lost_time_estimate}")
+                    with st.popover("Bantu Hubungi Pemilik", use_container_width=True):
+                        if current_user is None:
+                            st.warning("Khusus untuk Civitas UI. Masuk SSO UI dulu untuk melihat kontak pemilik.")
+                        else:
+                            st.write(f"Kontak Pemilik: **{item.owner_contact}**")
+                            st.caption(f"Perkiraan hilang: {item.lost_time_estimate}")
+                            st.caption("Gunakan kontak ini hanya untuk mengembalikan barang.")
